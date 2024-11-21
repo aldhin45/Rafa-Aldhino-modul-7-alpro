@@ -6,7 +6,7 @@ const nMax int = 1000
 
 type Data struct {
 	arr1, arr2, hasilOR, hasilAND, hasilXOR [nMax]int
-	n                                       int
+	n int
 }
 
 func isiArray(arr *[nMax]int, n int) {
